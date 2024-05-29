@@ -1,0 +1,89 @@
+.EmpLeaves {
+  height: 100vh;
+  width: 98vw;
+}
+
+.EmpLeaves-card {
+  width: 100%;
+  height: 400px;
+  background: rgba(235, 232, 232, 0.58);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.EmpLeaves-card:hover {
+  border: 1px solid white;
+  transform: scale(1.05);
+}
+
+.EmpLeaves-card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.empleaveDetails-btn {
+  height: 50px;
+  width: 150px;
+  border: none;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: solid #BFACC8;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  font-size: large;
+
+}
+
+.empleaveDetails-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #BFACC8;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.empleaveDetails-btn:hover {
+  box-shadow: 1px 1px 200px #BFACC8;
+  color: black;
+  border: none;
+}
+
+.empleaveDetails-btn:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+.EmpleavesNavigator-btn {
+  margin-left: 90%;
+  height: 50px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background-color:#5f537b ;
+  color: white;
+}
+.EmpleavesNavigator-btn:hover{
+  border-radius: 50px;
+  color: white;
+}

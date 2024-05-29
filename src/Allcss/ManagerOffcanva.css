@@ -1,0 +1,41 @@
+.Manager-offcanva {
+    background-color: #4A4063;
+    border-radius: 15px;
+}
+.Manager-navbar{
+    background-color: #783F8E;
+    box-shadow: 0 5px 20px #4A4063;
+    border-radius: 50px;
+    height: 50px;
+    margin: 5px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Manager-navbrand{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+}
+
+.Manager-navlink {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.Manager-navlink:hover{
+    background-color: #C6C6D7;
+    height: 40%;
+    width: 75%; 
+    border-radius: 50px;
+    color: black;
+}
+.Img{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

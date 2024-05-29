@@ -1,0 +1,138 @@
+/* .addempNavigate-btn{
+    margin-left: 90%;
+} */
+.Manager {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Manager-card {
+    width: 100%;
+    height: 400px;
+    background: rgba(235, 232, 232, 0.58);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Manager-card:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+.Manager-card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+/* .btn-div{
+    display: flex;
+    gap: 10px;
+} */
+
+/* .Update-btn {
+    height: 50px;
+    width: 120px;
+    border: none;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: solid #BFACC8;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    font-size: large;
+
+}
+
+.Update-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #BFACC8;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.Update-btn:hover {
+    box-shadow: 1px 1px 200px #BFACC8;
+    color: black;
+    border: none;
+}
+
+.Update-btn:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+} */
+
+.Managerdetails-btn {
+    height: 50px;
+    width: 120px;
+    border: none;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: solid #BFACC8;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    font-size: large;
+
+}
+
+.Managerdetails-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #BFACC8;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.Managerdetails-btn:hover {
+    box-shadow: 1px 1px 200px #BFACC8;
+    color: black;
+    border: none;
+}
+
+.Managerdetails-btn:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+.Managercard-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.Managercard-img:hover {
+    border: 1px solid white;
+    transform: scale(1.05);
+}
+
+.Managercard-img:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}

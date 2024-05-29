@@ -1,0 +1,126 @@
+.login-Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.login-Form {
+    /* display: flex; */
+    background-color:  #a973bf;
+    background-size: cover;
+    box-shadow: 0 10px 15px  #783F8E;
+    border-radius: 20px;
+    height: 75%;
+    width: 27%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.login-Form form {
+    /* display: flex; */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left:calc(50% - 50px);
+  }
+
+.login-Form .form-input {
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: large;
+    color: black;
+    border-radius: 50px;
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+}
+
+.login-Form .form-input:focus {
+    outline-color:  #e2d3ea;
+    background: #e2d3ea;
+    box-shadow: inset 20px 20px 60px  #e2d3ea,
+        inset -20px -20px 60px #e2d3ea;
+    transition: 0.3s;
+}
+
+/* .form-input.icon{
+    position: absolute;
+    left: 1rem;
+    width: 1rem;
+    height: 1rem;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    fill: none;
+} */
+
+.login-btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #BFACC8;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: large;
+    margin-left: 32%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.login-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+  .login-btn span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+  .login-btn:hover span {
+    padding-right: 15px;
+   }
+   
+  .login-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+.login-Form h1{
+   margin-top: 70px;
+   margin-left: 160px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+}
+.login-Form p{
+    color: white;
+    margin-left: 130px;
+}
+.input-icon{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: -40px;
+    left: 340px;
+}

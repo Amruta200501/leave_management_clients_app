@@ -1,0 +1,40 @@
+.Empoffcanva {
+    background-color: #4A4063;
+    border-radius: 15px;
+}
+
+.Emp-navbar {
+    background-color: #783F8E;
+    box-shadow: 0 5px 20px #4A4063;
+    border-radius: 50px;
+    height: 50px;
+    margin: 5px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Empnav-brand {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+}
+.Empnav-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.Empnav-link:hover{
+    background-color: #C6C6D7;
+    border-radius: 50px;
+    color: black;
+}
+
+.Emp-icon{
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}

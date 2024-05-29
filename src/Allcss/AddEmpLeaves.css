@@ -1,0 +1,66 @@
+.applyEmpleave-Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.applyEmpleave-Form {
+    display: flex;
+    height: 70%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.applyEmpleave-Form h2{
+    margin-left: 19%;
+}
+
+.applyEmpleave-div{
+    margin-top: 20px;
+}
+
+.applyEmpleave-Form form {
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.applyEmpleave-Form .applyEmpform-input {
+    width: 80%;
+    height: 80%;
+    padding-left: 10px;
+    font-size: large;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 5%; */
+    border-radius: 50px;
+    opacity: 0.6;
+}
+
+.applyEmpleave-Form .applyEmpform-input:focus {
+    outline-color:  #e2d3ea;
+    background: #e2d3ea;
+    box-shadow: inset 20px 20px 60px  #e2d3ea,
+        inset -20px -20px 60px #e2d3ea;
+    transition: 0.3s;
+  }
+
+.addEmpleave-button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #BFACC8;
+    margin-left: 30%;
+    margin-top: 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-size: large;
+}
