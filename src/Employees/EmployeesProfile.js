@@ -9,22 +9,29 @@ const EmployeesProfile = () => {
   const { UserData } = useSelector((state) => state.user)
   const dispatcher = useDispatch()
   return (
-    <div className='empProfile-Container' style={{ marginTop: '80px' }}>
-      <div className='empProfile-div'>
+    <div style={{ marginTop: '80px' }} className='empProfile'>
+      <div className='empProfile-Container'>
 
+        < div className='empProfile-header'>
 
-        <img src={`http://localhost:5000${UserData.UserImage}`} />
-        <p>Emp Name:- {UserData.UserName}</p>
-        <p>Emp Email:- {UserData.UserEmail}</p>
-        <p>Emp Password:- {UserData.UserPassword}</p>
-        <p>Emp MobileNo:- {UserData.UserMobileNo}</p>
-        <p>Emp Salary:- {UserData.UserSalary}</p>
-        <p>Emp DateOfBirth:- {UserData.UserDateOfBirth}</p>
-        <p>Emp Gender:- {UserData.UserGender}</p>
-        <p>Emp Department:- {UserData.UserDepartment}</p>
-        <p>Emp Designation:- {UserData.UserDesignation}</p>
-        <p>Emp JoiningDate:- {UserData.UserJoiningDate}</p>
-        <p>Emp ReleavingDate:- {UserData.UserReleavingDate}</p>
+          <img src={`http://localhost:5000${UserData.UserImage}`} className='empProfile-img' />
+          <p>Name:- {UserData.UserName}</p>
+          <p>Designation:- {UserData.UserDesignation}</p>
+        </div>
+
+        {/* <div className='empinfo'>
+          <p>Emp Email:- {UserData.UserEmail}</p>
+          <p>Emp Password:- {UserData.UserPassword}</p>
+          <p>Emp MobileNo:- {UserData.UserMobileNo}</p>
+          <p>Emp Salary:- {UserData.UserSalary}</p>
+          <p>Emp DateOfBirth:- {UserData.UserDateOfBirth}</p>
+          <p>Emp Gender:- {UserData.UserGender}</p>
+          <p>Emp Department:- {UserData.UserDepartment}</p>
+          <p>Emp Designation:- {UserData.UserDesignation}</p>
+          <p>Emp JoiningDate:- {UserData.UserJoiningDate}</p>
+          <p>Emp ReleavingDate:- {UserData.UserReleavingDate}</p>
+        </div> */}
+
       </div>
     </div>
   )

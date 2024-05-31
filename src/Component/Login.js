@@ -7,11 +7,13 @@ import { login } from '../reduxwork/UserSlice'
 import { useDispatch } from 'react-redux'
 import Email from '../img/icons8-email-64.png'
 import Lock from '../img/icons8-lock-50.png'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Login = () => {
   const dispatcher = useDispatch([])
+  const navigator = useNavigate()
 
   const [userEmail, setuserEmail] = useState("")
   const [userPassword, setuserPassword] = useState("")
@@ -30,6 +32,7 @@ const Login = () => {
 
       }
       alert("Login Successful")
+      navigator("/empprofile")
     } catch (error) {
       console.log(error);
     }

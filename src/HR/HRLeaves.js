@@ -27,7 +27,7 @@ const HRLeaves = () => {
   return (
 
     <div className='HRLeaves' style={{ marginTop: '80px' }}>
-      <button className='applyleaveNavigate-btn' onClick={() => navigator('/applyleave')}><IoArrowRedoCircleOutline size={30}/> Apply Leave</button>
+      <button className='applyleaveNavigate-btn' onClick={() => navigator('/applyleave')}><IoArrowRedoCircleOutline size={30 } className='svg'/> Apply Leave</button>
       <Container>
         <Row>
           {

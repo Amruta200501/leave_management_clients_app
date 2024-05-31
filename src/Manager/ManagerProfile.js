@@ -38,7 +38,7 @@ const ManagerProfile = () => {
                 <h5>Manager Department :{UserData.UserDepartment}</h5>
                 <h5>Manager Designation :{UserData.UserDesignation}</h5>
             </div>
-            <div>
+            <div className='Holiday-div'>
                 <Container>
                     <Row>
                         {

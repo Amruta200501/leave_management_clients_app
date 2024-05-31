@@ -1,7 +1,7 @@
 .Manager-Profile{
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 99.4vw;
 }
 
 .Holiday-card {
@@ -19,7 +19,9 @@
     text-align: justify;
     margin-top: 20px;
 }
-
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -31,4 +33,7 @@ p {
 
 .Holiday-card:active {
     transform: scale(0.95) rotateZ(1.7deg);
+}
+.Holiday-div{
+    margin-top: 25%;
 }

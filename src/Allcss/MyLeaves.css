@@ -73,7 +73,7 @@ p {
   transform: scale(100) translateX(2px);
 }
 
-.EmpleavesNavigator-btn {
+/* .EmpleavesNavigator-btn {
   margin-left: 90%;
   height: 50px;
   width: 150px;
@@ -86,4 +86,48 @@ p {
 .EmpleavesNavigator-btn:hover{
   border-radius: 50px;
   color: white;
+} */
+.EmpleavesNavigator-btn  {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 180px;
+  height: 50px;
+  margin-left: 87%;
+  border: none;
+  padding: 0px 20px;
+  background-color:#5f537b ;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: .3s;
+}
+
+.svg {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: white;
+  transition-duration: .3s;
+}
+
+.EmpleavesNavigator-btn:hover {
+  color: transparent;
+}
+
+.EmpleavesNavigator-btn:hover svg {
+  right: 35%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: .3s;
+}
+
+.EmpleavesNavigator-btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: .3s;
+  box-shadow: 2px 2px 0px rgb(140, 32, 212);
 }

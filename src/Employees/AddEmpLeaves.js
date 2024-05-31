@@ -19,6 +19,7 @@ const AddEmpLeaves = () => {
     const [leaveperiod, setleaveperiod] = useState(0)
 
     const AddLeave = async () => {
+        
         const AddData = {
             EmpId: UserData._id,
             LeaveTitle: leavetitle,

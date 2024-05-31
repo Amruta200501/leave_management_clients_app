@@ -7,6 +7,8 @@ import Employees from './Employees'
 import HRLeaves from './HRLeaves'
 import AddEmployees from './AddEmployees'
 import ApplyLeave from './ApplyLeave'
+import Login from '../Component/Login'
+
 
 const HRRouting = () => {
   return (
@@ -20,7 +22,7 @@ const HRRouting = () => {
         <Route path='/hrleaves' element={<HRLeaves/>}></Route>
         <Route path='/addemployees' element={<AddEmployees/>}></Route>
         <Route path='applyleave' element={<ApplyLeave/>}></Route>
-        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/hrlogin' element={<Login/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

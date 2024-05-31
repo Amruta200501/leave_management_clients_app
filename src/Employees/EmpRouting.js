@@ -18,7 +18,7 @@ const EmpRouting = () => {
                     <Route path='/empprofile' element={<EmployeesProfile />}></Route>
                     <Route path='/myleaves' element={<MyLeaves />}></Route>
                     <Route path='/empprojects' element={<EmpProjects />}></Route>
-                    <Route path='/login' element={<Login />}></Route>
+                    <Route path='/emplogin' element={<Login />}></Route>
                     <Route path='/addempleaves' element={<AddEmpLeaves />}></Route>
                 </Routes>
             </BrowserRouter>

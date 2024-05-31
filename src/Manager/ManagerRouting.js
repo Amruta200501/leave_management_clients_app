@@ -19,7 +19,7 @@ const ManagerRouting = () => {
                     <Route path='/manageremployees' element={<ManagerEmployees/>}></Route>
                     <Route path='/managersprojects' element={<ManagersProject/>}></Route>
                     <Route path='/addmanagerleaves' element={<AddManagerLeaves/>}></Route>
-                    <Route path='/login' element={<Login/>}></Route>
+                    <Route path='/managerlogin' element={<Login/>}></Route>
             </Routes>
             </BrowserRouter>
         </>

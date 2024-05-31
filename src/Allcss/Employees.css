@@ -140,7 +140,7 @@ p {
 .Empcard-img:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
-.addempNavigate-btn{
+/* .addempNavigate-btn{
     margin-left: 88%;
     height: 50px;
     width: 170px;
@@ -153,4 +153,47 @@ p {
 .addempNavigate-btn:hover{
     border-radius: 50px;
     color: white;
+  } */
+  .addempNavigate-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 210px;
+    height: 50px;
+    margin-left: 87%;
+    border: none;
+    padding: 0px 20px;
+    background-color:#5f537b ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: .3s;
+  }
+  
+  .svg {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    fill: white;
+    transition-duration: .3s;
+  }
+  
+  .addempNavigate-btn:hover {
+    color: transparent;
+  }
+  
+  .addempNavigate-btn:hover svg {
+    right: 35%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .addempNavigate-btn:active {
+    transform: translate(3px, 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
   }

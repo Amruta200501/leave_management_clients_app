@@ -45,7 +45,7 @@ const Employees = () => {
 
     return (
         <div className='Employees' style={{ marginTop: '80px' }}>
-            <button className='addempNavigate-btn' onClick={() => navigator("/addemployees")}>ADD EMPLOYEES <IoArrowRedoCircleOutline size={30}/></button>
+            <button className='addempNavigate-btn' onClick={() => navigator("/addemployees")}>ADD EMPLOYEES <IoArrowRedoCircleOutline size={30} className='svg'/></button>
 
             <Container>
                 <Row>

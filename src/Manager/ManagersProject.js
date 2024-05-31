@@ -36,11 +36,11 @@ const ManagersProject = () => {
                                 <Col sm={12} md={9} lg={3} >
                                     <Card className='ManagerProject-card'>
                                         <Card.Body>
-                                            <p>{managerprojects.ProjectTitle}</p>
-                                            <p>{managerprojects.ProjectDescription}</p>
-                                            <p>{managerprojects.ProjectStatus}</p>
-                                            <p>{managerprojects.ProjectStartDate}</p>
-                                            <p>{managerprojects.ProjectEndDate}</p>
+                                            <p>Project Title:- {managerprojects.ProjectTitle}</p>
+                                            <p>Project Description:- {managerprojects.ProjectDescription}</p>
+                                            <p>Project Status:- {managerprojects.ProjectStatus}</p>
+                                            <p>Project Start Date:- {managerprojects.ProjectStartDate}</p>
+                                            <p>Project End Date:- {managerprojects.ProjectEndDate}</p>
                                         </Card.Body>
                                     </Card>
                                 </Col>

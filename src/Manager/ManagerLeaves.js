@@ -26,7 +26,7 @@ const ManagerLeaves = () => {
 
     return (
         <div className='ManagerLeaves' style={{ marginTop: '80px' }}>
-            <button className='ManagerLeavesNavigator-btn' onClick={() => navigator('/addmanagerleaves')}>Apply Manager Leaves < IoArrowRedoCircleOutline size={30}/></button>
+            <button className='ManagerLeavesNavigator-btn' onClick={() => navigator('/addmanagerleaves')}>Apply Manager Leaves < IoArrowRedoCircleOutline size={30} className='svg'/></button>
             <Container>
                 <Row>
                     {
