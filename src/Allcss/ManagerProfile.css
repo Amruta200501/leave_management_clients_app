@@ -1,9 +1,75 @@
 .Manager-Profile{
-    display: flex;
+    /* display: flex; */
     height: 100vh;
-    width: 99.4vw;
+    width: 98vw;
+    justify-content: center;
+    /* position: fixed; */
+    /* flex-direction: column; */
+}
+.managerProfile-Container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 600px;
+    background-color: #dddddd;
+    /* border-radius: 40px; */
+    box-shadow: 0 14px 28px rgb(126, 126, 200);
+    margin-left: 50px;
 }
 
+.managerProfile-header{
+    background-color:#BFACC8;
+    height: 25%;
+    width: 100%;
+    /* border-radius: 30px 30px 0 0; */
+}   
+
+
+.managerProfile-header h3{
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.managerProfile-header h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 230px;
+    margin-top: 50px;
+    /* margin-bottom: -7%; */
+}
+.managerinfo {
+    margin-bottom: 15%;
+    height: 25%;
+    width: 100%;
+}
+.managerinfo h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 230px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.managerProfile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    left: calc(10% - 80px);
+}
+.manager-div{
+    margin-top: -17%;
+    /* height: 25%; */
+    width: 100%;
+}
+.manager-div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
 .Holiday-card {
     width: 100%;
     height: 300px;
@@ -17,7 +83,9 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
-    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-top: 40px;
 }
 h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -35,5 +103,8 @@ p {
     transform: scale(0.95) rotateZ(1.7deg);
 }
 .Holiday-div{
-    margin-top: 25%;
+    margin-top: 5%;
+}.Holiday-div h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 45%;
 }

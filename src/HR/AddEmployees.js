@@ -59,7 +59,7 @@ return (
     <div className='addemployees-Container' style={{ marginTop: '80px' }}>
         <div className='addemployee-Form'>
             <Form>
-                <h2>Add Employee From</h2>
+                <h2>Add Employee Form</h2>
                 <Row>
                     <Col>
                         <div className='addemployee-div'>

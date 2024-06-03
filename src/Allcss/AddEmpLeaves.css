@@ -13,11 +13,12 @@
     width: 70%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 130px;
     gap: 10px;
 }
 .applyEmpleave-Form h2{
-    margin-left: 19%;
+    margin-left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .applyEmpleave-div{
@@ -43,6 +44,7 @@
     /* margin-top: 5%; */
     border-radius: 50px;
     opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .applyEmpleave-Form .applyEmpform-input:focus {
@@ -51,6 +53,7 @@
     box-shadow: inset 20px 20px 60px  #e2d3ea,
         inset -20px -20px 60px #e2d3ea;
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 .addEmpleave-button {

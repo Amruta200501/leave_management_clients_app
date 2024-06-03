@@ -13,7 +13,7 @@
     width: 70%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     gap: 10px;
 }
 
@@ -31,6 +31,7 @@
 .addemployee-Form h2{
     margin-left: 30%;
     margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .addemployee-input {
@@ -44,6 +45,7 @@
     /* margin-top: 5%; */
     border-radius: 50px;
     opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .addemployee-Form .addemployee-input:focus {
@@ -52,6 +54,7 @@
     box-shadow: inset 20px 20px 60px  #e2d3ea,
         inset -20px -20px 60px #e2d3ea;
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 .Empsubmit-btn {

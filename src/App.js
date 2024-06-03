@@ -12,8 +12,8 @@ function App() {
     <div >
       {/* <Login/> */}
       {/* <HRRouting/> */}
-      <EmpRouting/>
-      {/* <ManagerRouting/> */}
+      {/* <EmpRouting/> */}
+      <ManagerRouting/>
     </div>
   );
 }

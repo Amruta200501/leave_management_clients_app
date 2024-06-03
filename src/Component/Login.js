@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import '../Allcss/Login.css'
-import Profile from '../img/icon.jpg'
+import Profile from '../img/profile1.png'
 import axios from 'axios'
 import { login } from '../reduxwork/UserSlice'
 import { useDispatch } from 'react-redux'

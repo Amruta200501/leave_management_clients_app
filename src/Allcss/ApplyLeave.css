@@ -15,12 +15,13 @@
     align-items: center;
     /* background-image: url('../img/istockphoto-843814242-170667a.jpg');
     background-size: cover; */
-    margin-bottom: 50px;
+    margin-bottom: 160px;
     gap: 10px;
 }
 
 .applyleave-Form h2 {
     margin-left: 28%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .applyleave-divs {
@@ -49,6 +50,7 @@
     /* box-shadow: 20px 20px 60px #c5c5c5,
            -20px -20px 60px #ffffff; */
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -58,6 +60,7 @@
     box-shadow: inset 20px 20px 60px  #e2d3ea,
         inset -20px -20px 60px #e2d3ea;
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sub-button {

@@ -27,6 +27,7 @@
 }
 .addholiday-Form h2{
   margin-left: 28%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .addholiday-input{
     width: 80%;
@@ -39,6 +40,7 @@
     /* margin-top: 5%; */
     border-radius: 50px;
     opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .addholiday-Form .addholiday-input:focus {
@@ -47,6 +49,7 @@
   box-shadow: inset 20px 20px 60px  #e2d3ea,
       inset -20px -20px 60px #e2d3ea;
   transition: 0.3s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .addholiday-button{
