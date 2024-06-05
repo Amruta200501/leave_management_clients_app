@@ -39,7 +39,7 @@ const ApplyLeave = () => {
         <div className='applyleave-Container' style={{ marginTop: '80px' }}>
             <div className='applyleave-Form'>
                 <Form>
-                    <h2>HR Leave Form</h2>
+                    <h2>Leave Form</h2>
                     <Row>
                         <Col>
                             <div className='applyleave-divs'>

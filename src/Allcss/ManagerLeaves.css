@@ -102,6 +102,7 @@ p {
     cursor: pointer;
     border-radius: 50px;
     transition-duration: .3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .svg {

@@ -51,6 +51,7 @@
     margin-top: 10px;
     margin-left: 20px;
     border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .login-Form .form-input:focus {
@@ -59,6 +60,7 @@
     box-shadow: inset 20px 20px 60px  #e2d3ea,
         inset -20px -20px 60px #e2d3ea;
     transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* .form-input.icon{
@@ -84,6 +86,7 @@
     margin-left: 32%;
     cursor: pointer;
     transition: all 0.5s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .login-btn span {
     cursor: pointer;
@@ -114,10 +117,12 @@
    margin-left: 160px;
    font-family: Georgia, 'Times New Roman', Times, serif;
    color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .login-Form p{
     color: white;
     margin-left: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .input-icon{
     height: 25px;

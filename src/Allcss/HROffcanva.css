@@ -20,12 +20,14 @@
   display: flex;
   flex-direction: row;
   font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .HRoffcanva .nav-link {
   text-decoration: none;
   font-weight: bold;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .HRoffcanva .nav-link:hover {
@@ -34,6 +36,7 @@
   width: 90%;
   border-radius: 50px;
   color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .img-icon {
