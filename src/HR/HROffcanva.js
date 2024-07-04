@@ -34,16 +34,16 @@ const HROffcanva = () => {
                 <Offcanvas.Body>
                     <Nav className='flex-column'>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/hrprofile' className='nav-link'><img src={HRProfile} className='img-icon' />  HR Profile</Link>
+                            <Link to='/hr/hrprofile' className='nav-link'><img src={HRProfile} className='img-icon' />  HR Profile</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/addholiday' className='nav-link'><img src={AddHoliday} className='img-icon' />  Add Holiday</Link>
+                            <Link to='/hr/addholiday' className='nav-link'><img src={AddHoliday} className='img-icon' />  Add Holiday</Link>
                         </Nav.Link >
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/employees' className='nav-link'><img src={Employees} className='img-icon' />  Employees</Link>
+                            <Link to='/hr/employees' className='nav-link'><img src={Employees} className='img-icon' />  Employees</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/hrleaves' className='nav-link'><img src={Leave} className='img-icon' />  HR Leaves</Link>
+                            <Link to='/hr/hrleaves' className='nav-link'><img src={Leave} className='img-icon' />  HR Leaves</Link>
                         </Nav.Link>
                     </Nav>
                 </Offcanvas.Body>

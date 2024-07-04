@@ -31,13 +31,13 @@ const EmpOffcanvas = () => {
                 <Offcanvas.Body>
                     <Nav className='flex-column'>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/empprofile' className='nav-link'><img src={EMPProfile} className='img-icon' />  Employee Profile</Link>
+                            <Link to='/emp/empprofile' className='nav-link'><img src={EMPProfile} className='img-icon' />  Employee Profile</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/myleaves' className='nav-link'><img src={EmpLeave} className='img-icon' />  My Leaves</Link>
+                            <Link to='/emp/myleaves' className='nav-link'><img src={EmpLeave} className='img-icon' />  My Leaves</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/empprojects' className='nav-link'><img src={EmpProject} className='img-icon' />  Employee Projects</Link>
+                            <Link to='/emp/empprojects' className='nav-link'><img src={EmpProject} className='img-icon' />  Employee Projects</Link>
                         </Nav.Link>
                     </Nav>
                 </Offcanvas.Body>

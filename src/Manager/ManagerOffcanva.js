@@ -32,16 +32,16 @@ const ManagerOffcanva = () => {
                 <Offcanvas.Body>
                     <Nav className='flex-column'>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/managerprofile' className='nav-link'><img src={ManagerProfile} className='img-icon'  />   Manager Profile</Link>
+                            <Link to='/manager/managerprofile' className='nav-link'><img src={ManagerProfile} className='img-icon'  />   Manager Profile</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/managerleaves' className='nav-link'><img src={ManagerLeave} className='img-icon'  />   Manager Leaves</Link>
+                            <Link to='/manager/managerleaves' className='nav-link'><img src={ManagerLeave} className='img-icon'  />   Manager Leaves</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/manageremployees' className='nav-link'><img src={Managers} className='img-icon'  />   Managers</Link>
+                            <Link to='/manager/manageremployees' className='nav-link'><img src={Managers} className='img-icon'  />   Managers</Link>
                         </Nav.Link>
                         <Nav.Link onClick={() => handlehide()}>
-                            <Link to='/managersprojects' className='nav-link'><img src={Project}className='img-icon'  />   Manager Projects</Link>
+                            <Link to='/manager/managersprojects' className='nav-link'><img src={Project}className='img-icon'  />   Manager Projects</Link>
                         </Nav.Link>
                     </Nav>
                 </Offcanvas.Body>
